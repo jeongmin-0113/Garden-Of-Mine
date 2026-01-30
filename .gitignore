@@ -17,3 +17,23 @@ captures
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 node_modules/
+
+# Keystore & signing
+*.jks
+*.keystore
+keystore.properties
+
+# Logs
+*.log
+*.hprof
+
+# Environment & Secrets
+.env
+*.env
+secrets.properties
+
+# Windows
+Thumbs.db
+
+# Claude Code
+.claude/
